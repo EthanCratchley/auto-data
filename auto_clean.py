@@ -13,7 +13,7 @@ if data is not None:
     # For example, remove NaN values, convert data types, etc.
 
     # Save to CSV
-    data.to_csv('data.csv', index=False)
+    data.to_csv('data_0.csv', index=False)
     print("Data saved to data.csv")
 else:
     print("No data to clean and save.")
